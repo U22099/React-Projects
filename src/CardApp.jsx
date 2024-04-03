@@ -1,8 +1,6 @@
-import Practice from './Practice.jsx'
-import List from './List.jsx'
 import Card from './Card.jsx'
 
-function App() {
+function CardApp() {
   const fruits = [{name:'apple', calories: 56},
                     {name:'pineapple',calories: 52},
                     {name:'orange',calories: 45},
@@ -21,11 +19,8 @@ function App() {
       <Card title="Second Card" description="This is the description for the second class using props" isValid={true}/>
       <Card title="Third Card" description="This is the description for the third class using props" isValid={false}/>
       <Card/>
-      <List itemList = {fruits} category="Fruits"/>
-      <List itemList = {foods} category="Foods"/>
-      <Practice/>
     </div>
   );
 }
 
-export default App
+export default CardApp

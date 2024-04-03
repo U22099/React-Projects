@@ -1,7 +1,7 @@
 import Todo from './Todo.jsx'
 
-function App2(){
+function TodoApp(){
 
     return(<Todo/>);
 }
-export default App2
+export default TodoApp

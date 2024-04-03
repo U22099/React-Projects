@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-function Practice(){
+function ColorPicker(){
     let [name, setName] = useState("Guest");
     let [no, setNo] = useState(0);
     let [txt, setTxt] = useState();
@@ -66,4 +66,4 @@ function Practice(){
         </div>
     );
 }
-export default Practice
+export default ColorPicker
