@@ -26,7 +26,7 @@ function StopWatchTutorial(){
     }
     function reset(){
         setIsRunning(false);
-        startTimeRef.current = 0;
+        setEllapseTime(0);
     }
     function formatTime(){
         let hours = Math.floor(ellapsedTime / (1000 * 60 * 60));
@@ -43,7 +43,7 @@ function StopWatchTutorial(){
     }
     return(
         <div className="p-[10px] md:p-[30px] flex flex-col  items-center justify-center border-white border-[6px] rounded-lg">
-            <h1 className="text-white text-[3rem] md:text-[5rem] font-mono [text-shadow:_0_1px_0_rgb(255,255,255)] font-bold" id="time">{formatTime}</h1>
+            <h1 className="text-white text-[3rem] md:text-[5rem] font-mono [text-shadow:_0_1px_0_rgb(255,255,255)] font-bold" id="time">{formatTime()}</h1>
             <div className="flex items-center gap-[20px]">
                 <button className="bg-green-500 rounded shadow-sm shadow-green-300 font-bold active:shadow-none w-[80px] md:w-[100px] h-[40px]" onClick={start}>Start</button>
                 <button className="bg-red-500 rounded shadow-red-300 shadow-sm active:shadow-none w-[80px] md:w-[100px] h-[40px] font-bold" onClick={stop}>Stop</button>
