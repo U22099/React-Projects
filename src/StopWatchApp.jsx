@@ -1,8 +1,12 @@
 import StopWatch from './StopWatch'
+import StopWatchTutorial from './StopWatchTutorial'
 
 function StopWatchApp(){
     return(
-        <StopWatch/>
+        <>
+            <StopWatch/>
+            <StopWatchTutorial/>
+        </>
     )
 }
 export default StopWatchApp
