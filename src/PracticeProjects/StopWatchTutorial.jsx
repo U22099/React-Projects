@@ -26,7 +26,7 @@ function StopWatchTutorial(){
     }
     function reset(){
         setIsRunning(false);
-        setEllapseTime(0);
+        setEllapsedTime(0);
     }
     function formatTime(){
         let hours = Math.floor(ellapsedTime / (1000 * 60 * 60));
