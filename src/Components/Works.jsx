@@ -112,6 +112,9 @@ const Works = () => {
         variants = {textVariant}
         initial = "initial"
         whileInView = "animate"
+        viewport = {{
+            once: true
+        }}
         className="flex flex-col items-start justify-center h-max py-[10px]">
             <h1 className="text-[2.4em] text-white">My <span>Projects</span></h1>
             <p className=" text-gray-500 texxt-[1.5em]">These are my latest projects.</p>
@@ -122,12 +125,15 @@ const Works = () => {
                 variants = {boxVariant1}
                 initial = "initial"
                 whileInView = "animate"
+                viewport = {{
+                    once: true
+                }}
                 className=" overflow-hidden md:col-span-1 h-[350px] rounded-lg">
                     <a href="https://u22099.github.io/Javascript-Projects/Calculator">
                         <img src={projPic1} alt="" className="rounded-lg img transition transform duration-500 ease-in-out hover:scale-105"/>
-                        <div className="relative top-[-30%] w-[200px]">
+                        <div className="relative top-[-30%] w-[200px] bg-black rounded-xl p-[10px]">
                             <h1 className="primary-color text-bold">Calculator Application</h1>
-                            <p className="text-gray-700 text-semibold">HTML-CSS-JAVASCRIPT</p>
+                            <p className="text-white text-semibold">HTML-CSS-JAVASCRIPT</p>
                         </div>
                     </a>
                 </motion.div>
@@ -135,12 +141,15 @@ const Works = () => {
                 variants = {boxVariant2}
                 initial = "initial"
                 whileInView = "animate"
+                viewport = {{
+                    once: true
+                }}
                 className=" overflow-hidden md:col-span-2 h-[350px] rounded-lg">
                     <a href="https://u22099.github.io/HTML-CSS-Projects/LoginPageforClassProject/">
                         <img src={projPic2} alt="" className="rounded-lg img transition transform duration-500 ease-in-out hover:scale-105"/>
-                        <div className="relative top-[-30%] w-[200px]">
+                        <div className="relative top-[-30%] w-[200px] bg-black rounded-xl p-[10px]">
                             <h1 className="primary-color text-bold">Restaurant Website</h1>
-                            <p className="text-gray-700 text-semibold">HTML-CSS</p>
+                            <p className="text-white text-semibold">HTML-CSS</p>
                         </div>
                     </a>
                 </motion.div>
@@ -150,12 +159,15 @@ const Works = () => {
                 variants = {boxVariant3}
                 initial = "initial"
                 whileInView = "animate"
+                viewport = {{
+                    once: true
+                }}
                 className=" overflow-hidden md:col-span-2 h-[350px] rounded-lg">
                     <a href="https://u22099.github.io/HTML-CSS-Projects/NetflixClone">
                         <img src={projPic3} alt="" className="rounded-lg img transition transform duration-500 ease-in-out hover:scale-105"/>
-                        <div className="relative top-[-30%] w-[200px]">
+                        <div className="relative top-[-30%] w-[200px] bg-black rounded-xl p-[10px]">
                             <h1 className="primary-color text-bold">Netflix Clone</h1>
-                            <p className="text-gray-700 text-semibold">HTML-CSS</p>
+                            <p className="text-white text-semibold">HTML-CSS</p>
                         </div>
                     </a>
                 </motion.div>
@@ -163,12 +175,15 @@ const Works = () => {
                 variants = {boxVariant4}
                 initial = "initial"
                 whileInView = "animate"
+                viewport = {{
+                    once: true
+                }}
                 className=" overflow-hidden md:col-span-1 h-[350px] rounded-lg">
                     <a href="https://u22099.github.io/Javascript-Projects/GamesAndUtilities/">
                         <img src={projPic4} alt="" className="rounded-lg img transition transform duration-500 ease-in-out hover:scale-105"/>
-                        <div className="relative top-[-30%] w-[200px]">
+                        <div className="relative top-[-30%] w-[200px] bg-black rounded-xl p-[10px]">
                             <h1 className="primary-color text-bold">Games And Utilities Application</h1>
-                            <p className="text-gray-700 text-semibold">HTML-CSS-JAVASCRIPT</p>
+                            <p className="text-white text-semibold">HTML-CSS-JAVASCRIPT</p>
                         </div>
                     </a>
                 </motion.div>
@@ -178,12 +193,15 @@ const Works = () => {
                 variants = {boxVariant5}
                 initial = "initial"
                 whileInView = "animate"
+                viewport = {{
+                    once: true
+                }}
                 className=" overflow-hidden md:col-span-1 h-[350px] rounded-lg">
                     <a href="https://u22099.github.io/Javascript-Projects/BrainTypeCalculator">
                         <img src={projPic5} alt="" className="rounded-lg img transition transform duration-500 ease-in-out hover:scale-105"/>
-                        <div className="relative top-[-30%] w-[200px]">
+                        <div className="relative top-[-30%] w-[200px] bg-black rounded-xl p-[10px]">
                             <h1 className="primary-color text-bold">Brain Type Calculator</h1>
-                            <p className="text-gray-700 text-semibold">HTML-CSS-JAVASCRIPT</p>
+                            <p className="text-white text-semibold">HTML-CSS-JAVASCRIPT</p>
                         </div>
                     </a>
                 </motion.div>
@@ -191,10 +209,13 @@ const Works = () => {
                 variants = {boxVariant4}
                 initial = "initial"
                 whileInView = "animate"
+                viewport = {{
+                    once: true
+                }}
                 className=" overflow-hidden md:col-span-2 h-[350px] rounded-lg">
-                    <a href="https://u22099.github.io/Javascript-Projects/WeatherApp/">
+                    <a href="https://u22099.github.io/Javascript-Projects/RecipeApp/">
                         <img src={projPic6} alt="" className="rounded-lg img transition transform duration-500 ease-in-out hover:scale-105"/>
-                        <div className="relative top-[-30%] w-[200px]">
+                        <div className="relative top-[-30%] w-[200px] bg-black rounded-xl p-[10px]">
                             <h1 className="primary-color text-bold">Recipe App</h1>
                             <p className="text-white text-semibold">HTML-CSS-JAVASCRIPT[API][Team-Work]</p>
                         </div>

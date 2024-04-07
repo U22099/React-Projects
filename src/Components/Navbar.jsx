@@ -39,7 +39,7 @@ const Navbar = () => {
                 variants={nameVariants}
                 initial="initial"
                 whileInView="animate"
-                className="primary-color flex items-center pl-[3px] text-[30px] z-2 cursor-pointer"><a href="#about">DANIEL</a>
+                className="primary-color flex items-center pl-[3px] text-[30px] cursor-pointer"><a href="#about">DANIEL</a>
                 </motion.h1>
                 <motion.ul 
                 variants={listVariants}

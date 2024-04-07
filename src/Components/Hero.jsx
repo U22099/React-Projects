@@ -64,13 +64,16 @@ const Hero = () => {
                     <a href="https://instagram.com"><FaInstagram/></a>
                     <a href="https://youtube.com"><FaYoutube/></a>
                 </div>
-                <a className="flex justify-center items-center text-[1.5em] w-max h-[60px] px-[40px] ml-[10px] mt-[10px] rounded-2xl bg-primary-color text-white shadow-purple-900 shadow-lg active:shadow-none" href="#works">View Works
+                <a className="flex justify-center items-center text-[1.5em] w-max h-[60px] px-[40px] ml-[10px] mt-[10px] rounded-2xl bg-primary-color text-white shadow-purple-900 shadow-lg active:shadow-none" href="#work">View Works
                 </a>
             </motion.div>
             <motion.div 
             variants={imageVariant}
             initial="initial"
             whileInView="animate"
+            viewport = {{
+                once: true
+            }}
             className="flex justify-center md:justify-right items-center md:w-[400px] w-[80vw] mx-auto">
                 <div className=" w-[80vw] mx-auto md:ml-[30px] md:w-[300px] overflow-hidden h-[400px] rounded-lg text-center">
                     <img src={pic} alt="  " className="rounded-lg"/>
