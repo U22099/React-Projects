@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import pic from './assets/IMG_0972.JPG'
+import pic from '../assets/IMG_0972.JPG'
 import React, {useState} from 'react'
 
 
