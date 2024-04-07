@@ -59,10 +59,10 @@ const Hero = () => {
                 </h1>
                 <p className="text-gray-500 text-[1.8em] md:text-[2.5em] text-start">with a 2+ years experience</p>
                 <div className="flex w-max gap-[20px] text-[3em] md:text-[4em] text-purple-700">
-                    <a href=""><FaGithub/></a>
-                    <a href=""><FaFacebook/></a>
-                    <a href=""><FaInstagram/></a>
-                    <a href=""><FaYoutube/></a>
+                    <a href="https://github.com/u22099"><FaGithub/></a>
+                    <a href="https://www.facebook.com/profile.php?id=100075353746324"><FaFacebook/></a>
+                    <a href="https://instagram.com"><FaInstagram/></a>
+                    <a href="https://youtube.com"><FaYoutube/></a>
                 </div>
                 <a className="flex justify-center items-center text-[1.5em] w-max h-[60px] px-[40px] ml-[10px] mt-[10px] rounded-2xl bg-primary-color text-white shadow-purple-900 shadow-lg active:shadow-none" href="#works">View Works
                 </a>
