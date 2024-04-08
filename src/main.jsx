@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client'
 // import CardApp from './PracticeProjects/CardApp.jsx'
 // import TodoApp from './PracticeProjects/TodoApp.jsx'
 // import ColorPickerApp from './PracticeProjects/ColorPicker.jsx'
-import PortfolioApp from './PortfolioApp.jsx'
+import PortfolioApp from './PracticeProjects/PortfolioApp.jsxs'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
